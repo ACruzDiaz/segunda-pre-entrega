@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+main{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+main div.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+h2, p {
+    color: aliceblue;
+}
+
+.lista_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 5%;
+}
+
+.item{
+    background-color: green;
+    padding: 1rem;
+    &:hover{
+        background-color: darkgreen;
+    }
+}
+
+.item_selected{
+    border: white solid 2px;
+    background-color: green;
+    padding: 1rem;
+    &:hover{
+        background-color: darkgreen;
+    }
+}
